@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#778fff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:textColor="#000000"
+        android:text="Games!"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        ></TextView>
+    
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Kings"
+        android:id="@+id/buttonKings"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textview"
+        ></Button>
+
+
+</RelativeLayout>
